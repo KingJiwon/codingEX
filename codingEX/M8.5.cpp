@@ -48,6 +48,7 @@ void Sort(int arr[], const int size )
 	{
 		cout << arr[i] <<" ";
 	}
+	cout << endl;
 }
 
 void main()
@@ -56,6 +57,6 @@ void main()
 	int arr[10] = { 1,2,3,4,5,6,7 };
 	int arr2[10] = { 7,1,3,5,6,2,4 };
 	Print(arr, size);
-	Reverse(arr, size);
 	Sort(arr2, size);
+	Reverse(arr, size);
 }
